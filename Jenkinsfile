@@ -1,6 +1,7 @@
 pipeline {
   agent {
     docker {
+      args '-v $WORKSPACE:/docs'
       image 'python'
     }
 
@@ -14,12 +15,14 @@ pipeline {
     }
     stage('Build') {
       steps {
-        sh 'mkdocs build'
+        sh '''pwd
+ls
+mkdocs build'''
       }
     }
     stage('Test') {
       steps {
-        sh 'ls -l _site/'
+        sh 'ls site/'
       }
     }
   }
