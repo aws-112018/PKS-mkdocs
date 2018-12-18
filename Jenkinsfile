@@ -1,8 +1,8 @@
 pipeline {
   agent {
     docker {
-      image 'python:2.7'
       args '-v $WORKSPACE:/docs'
+      image 'python'
     }
 
   }
