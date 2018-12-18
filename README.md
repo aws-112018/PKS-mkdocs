@@ -9,9 +9,9 @@ Faiblesses :
 - Problème concernant Docker
 - Test URL non-achevée
 Opportunités : 
-- RAS
+- Trouver des astuces pour pallier des problèmes
 Menaces :
-- RAS 
+- Efficacité et rapidité d'autres équipes à mettre en place le projet
 
 # Reporting général:
 - Problème rencontré sur le PC de stéphanie, Docker doit être redémarrer suite à une erreur au lancement du pipeline.
