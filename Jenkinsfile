@@ -16,6 +16,7 @@ pipeline {
     stage('Build') {
       steps {
         sh '''pwd
+ls
 #mkdocs build'''
       }
     }
