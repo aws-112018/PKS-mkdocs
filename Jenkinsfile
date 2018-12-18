@@ -15,7 +15,7 @@ pipeline {
     }
     stage('Build') {
       steps {
-        sh '''echo $(PWD)
+        sh '''pwd
 #mkdocs build'''
       }
     }
