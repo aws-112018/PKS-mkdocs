@@ -15,8 +15,8 @@ pipeline {
     }
     stage('Build') {
       steps {
-        sh '''cd /docs/mkdocs-test
-mkdocs build'''
+        sh '''echo pwd
+#mkdocs build'''
       }
     }
     stage('Test') {
