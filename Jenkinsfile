@@ -22,7 +22,7 @@ mkdocs build'''
     }
     stage('Test') {
       steps {
-        sh 'ls -l _site/'
+        sh 'ls site/'
       }
     }
   }
